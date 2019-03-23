@@ -17,6 +17,10 @@ namespace AwaitAsyncLibrary
             Console.WriteLine($"start1 {Thread.CurrentThread.ManagedThreadId.ToString("00")}");
             Async();
             Console.WriteLine($"aaa2 {Thread.CurrentThread.ManagedThreadId.ToString("00")}");
+
+
+
+
         }
         public static async void Async()
         {
