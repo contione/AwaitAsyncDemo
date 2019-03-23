@@ -26,7 +26,12 @@ namespace AwaitAsyncLibrary
                 Thread.Sleep(500);
                 Console.WriteLine($"bbb3 {Thread.CurrentThread.ManagedThreadId.ToString("00")}");
             });
+
+
             Console.WriteLine($"ccc4 {Thread.CurrentThread.ManagedThreadId.ToString("00")}");
+
+
+
         }
     }
 
